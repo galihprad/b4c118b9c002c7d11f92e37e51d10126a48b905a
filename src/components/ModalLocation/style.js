@@ -26,6 +26,10 @@ export const inputTypeStyle = css`
   width: 100%;
 `;
 
+export const formStyle = css`
+  width: 100%;
+`;
+
 export const inputResultStyle = css`
   width: 100%;
   height: 100px;

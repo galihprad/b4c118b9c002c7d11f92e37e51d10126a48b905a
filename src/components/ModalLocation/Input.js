@@ -9,7 +9,8 @@ import {
   inputResultStyle,
   inputResultItemStyle,
   resultTitleSize,
-  resultAddressSize
+  resultAddressSize,
+  formStyle
 } from "./style";
 
 const sampleLocation = [
@@ -48,7 +49,7 @@ const Input = () => {
     <div css={inputStyle}>
       <div css={inputBoxStyle}>
         <Room fill="#f9423a" />
-        <form>
+        <form css={formStyle}>
           <input
             css={inputTypeStyle}
             type="text"
